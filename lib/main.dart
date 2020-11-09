@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 void main() {
   runApp(MyApp());
@@ -47,18 +48,12 @@ class MyApp extends StatelessWidget {
             Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 70.0),
                 child: ListTile(
-                  leading: Text(
-                    '',
-                    style: TextStyle(
-                      color: Colors.teal.shade500,
-                      fontFamily: 'Brandico',
-                      fontSize: 30.0,
-                    ),
-                  ),
+                  leading:
+                      Icon(Ionicons.logo_google, color: Colors.teal.shade500),
                   title: Text(
                     'Sign in with Google',
                     style: TextStyle(
-                      color: Colors.teal.shade900,
+                      color: Colors.teal.shade500,
                       fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                     ),
@@ -67,19 +62,13 @@ class MyApp extends StatelessWidget {
             Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 70.0),
                 child: ListTile(
-                  leading: Text(
-                    '',
-                    style: TextStyle(
-                      color: Colors.teal.shade500,
-                      fontFamily: 'Brandico',
-                      fontSize: 30.0,
-                    ),
-                  ),
+                  leading:
+                      Icon(Ionicons.logo_facebook, color: Colors.teal.shade500),
                   title: Text(
                     'Sign in with Facebook',
                     style: TextStyle(
                         fontSize: 20.0,
-                        color: Colors.teal.shade900,
+                        color: Colors.teal.shade500,
                         fontFamily: 'Source Sans Pro'),
                   ),
                 )),
